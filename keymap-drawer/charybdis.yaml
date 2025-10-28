@@ -7,47 +7,47 @@ layers:
   - '3'
   - '4'
   - '5'
+  - '='
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
-  - '-'
   - '['
   - Q
   - W
   - E
   - R
   - T
+  - ''''
   - Y
   - U
   - I
   - O
   - P
-  - '='
   - ']'
   - {t: A, h: LCTRL}
   - {t: S, h: LSHIFT}
   - {t: D, h: LGUI}
   - {t: F, h: LEFT ALT}
   - G
-  - H
-  - {t: J, h: RIGHT ALT}
-  - {t: K, h: RGUI}
-  - {t: L, h: RSHFT}
-  - {t: ;, h: RCTRL}
-  - ''''
+  - ;
+  - {t: H, h: RIGHT ALT}
+  - {t: J, h: RGUI}
+  - {t: K, h: RSHFT}
+  - {t: L, h: RCTRL}
+  - '-'
   - CAPSLOCK
   - Z
   - X
   - C
   - V
   - B
+  - /
   - N
   - M
   - ','
   - .
-  - /
   - \
   - TAB
   - {t: LEFT SHIFT, h: sticky}
