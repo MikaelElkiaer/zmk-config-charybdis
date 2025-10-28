@@ -5,4 +5,4 @@ Originally forked from https://github.com/iamtienng/zmk-config-charybdis.
 ## Keymap
 
 Generated with [Keymap Drawer](https://github.com/caksoylar/keymap-drawer-web/)
-![Keymap](/keymap-drawer/my_keymap.svg)
+![Keymap](/keymap-drawer/charybdis.svg)
