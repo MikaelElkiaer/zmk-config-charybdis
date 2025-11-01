@@ -64,24 +64,24 @@ layers:
   - F3
   - F4
   - F5
+  - F12
   - F6
   - F7
   - F8
   - F9
   - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BRI DEC
+  - BRI INC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BRI DN
-  - BRI UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F12
   - {t: ▽, type: trans}
   - PREV
   - VOL DN
@@ -121,24 +121,24 @@ layers:
   - F3
   - F4
   - F5
+  - F12
   - F6
   - F7
   - F8
   - F9
   - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -159,8 +159,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PG DN
+  - PG UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
