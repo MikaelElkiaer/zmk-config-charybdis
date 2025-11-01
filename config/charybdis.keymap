@@ -29,15 +29,11 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <
-               6  7  8  9 10 11
-              18 19 20 21 22 23
-              30 31 32 33 34 35
-              42 43 44 45 46 47
-                 54 55 56 57 58
-            >;
+
+            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 42 43 44 45 46 47 54 55 56 57 58 53>;
             hold-trigger-on-release;
         };
+
         hmr: home_row_mod_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -46,14 +42,8 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <
-               0  1  2  3  4  5
-              12 13 14 15 16 17
-              24 25 26 27 28 29
-              36 37 38 39 40 41
-              48 49 50 51 52 53
-              59 60 61
-            >;
+
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 48 49 50 51 52 59 60 61>;
             hold-trigger-on-release;
         };
     };
@@ -77,21 +67,21 @@
 
         LFT {
             bindings = <
-&trans  &kp F1      &kp F2        &kp F3        &kp F4      &kp F5  &kp F6          &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&trans  &trans      &kp C_BRI_DN  &kp C_BRI_UP  &trans      &trans          &trans  &trans  &trans  &trans  &trans   &kp F12
-&trans  &kp K_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans          &trans  &trans  &trans  &trans  &trans   &trans
-&trans  &trans      &kp C_MUTE    &trans        &trans      &trans          &trans  &trans  &trans  &trans  &trans   &trans
-        &sys_reset  &bootloader   &trans        &trans      &trans  &trans          &trans          &trans
+&trans  &kp F1      &kp F2         &kp F3         &kp F4      &kp F5  &kp F12           &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&trans  &trans      &kp C_BRI_DEC  &kp C_BRI_INC  &trans      &trans           &kp F11  &trans  &trans  &trans  &trans  &trans
+&trans  &kp K_PREV  &kp C_VOL_DN   &kp C_VOL_UP   &kp C_NEXT  &trans           &trans   &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &kp C_MUTE     &trans         &trans      &trans           &trans   &trans  &trans  &trans  &trans  &trans
+        &sys_reset  &bootloader    &trans         &trans      &trans  &trans            &trans          &trans
             >;
         };
 
         RGHT {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                 &kp F7    &kp F8    &kp F9        &kp F10    &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans               &trans    &trans    &trans    &trans        &trans     &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans               &kp HOME  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp END
-&trans  &trans  &trans  &trans  &trans  &trans               &trans    &trans    &trans    &trans        &trans     &trans
-        &trans  &trans  &trans  &trans  &trans  &bootloader            &trans              &sys_reset
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F12                &kp F6    &kp F7     &kp F8        &kp F9     &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans               &kp F11   &trans    &trans     &trans        &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans               &kp HOME  &kp LEFT  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &kp END
+&trans  &trans  &trans  &trans  &trans  &trans               &trans    &trans    &kp PG_DN  &kp PG_UP     &trans     &trans
+        &trans  &trans  &trans  &trans  &trans  &bootloader            &trans               &sys_reset
             >;
         };
     };
