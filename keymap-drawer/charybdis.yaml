@@ -52,13 +52,13 @@ layers:
   - TAB
   - {t: LEFT SHIFT, h: sticky}
   - ESCAPE
-  - {t: SPACE, h: LFT}
+  - {t: SPACE, h: FUN}
   - DEL
   - {t: RIGHT SHIFT, h: sticky}
-  - {t: BACKSPACE, h: RGHT}
+  - {t: BACKSPACE, h: NAV}
   - ENTER
-  LFT:
-  - {t: ▽, type: trans}
+  FUN:
+  - F11
   - F1
   - F2
   - F3
@@ -76,7 +76,7 @@ layers:
   - BRI INC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F11
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -114,26 +114,26 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  RGHT:
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F12
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  NAV:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F11
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
