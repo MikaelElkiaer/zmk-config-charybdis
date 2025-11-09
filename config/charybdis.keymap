@@ -3,6 +3,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     chosen { zmk,matrix_transform = &default_transform; };
@@ -61,7 +62,7 @@
 &kp GRAVE          &kp N1        &kp N2          &kp N3       &kp N4           &kp N5   &kp EQUAL                  &kp N6            &kp N7       &kp N8        &kp N9        &kp N0
 &kp LEFT_BRACKET   &kp Q         &kp W           &kp E        &kp R            &kp T                     &kp APOS  &kp Y             &kp U        &kp I         &kp O         &kp P
 &kp RIGHT_BRACKET  &hml LCTRL A  &hml LSHIFT S   &hml LGUI D  &hml LEFT_ALT F  &kp G                     &kp SEMI  &hmr RIGHT_ALT H  &hmr RGUI J  &hmr RSHFT K  &hmr RCTRL L  &kp MINUS
-&kp CAPSLOCK       &kp Z         &kp X           &kp C        &kp V            &kp B                     &kp FSLH  &kp N             &kp M        &kp COMMA     &kp DOT       &kp BSLH
+&kp BACKSLASH      &kp Z         &kp X           &kp C        &kp V            &kp B                     &kp FSLH  &kp N             &kp M        &kp COMMA     &kp DOT       &tog 3
                    &kp TAB       &sk LEFT_SHIFT  &kp ESCAPE   &lt 1 SPACE      &kp DEL  &sk RIGHT_SHIFT            &lt 2 BACKSPACE                &kp ENTER
             >;
         };
@@ -83,6 +84,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans               &kp HOME  &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &kp END
 &trans  &trans  &trans  &trans  &trans  &trans               &trans    &trans        &kp PG_DN     &kp PG_UP     &trans        &trans
         &trans  &trans  &trans  &trans  &trans  &bootloader            &trans                      &sys_reset
+            >;
+        };
+
+        PNT {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans     &trans     &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans          &trans                &trans
             >;
         };
     };
