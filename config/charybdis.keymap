@@ -59,9 +59,9 @@
 
         BASE {
             bindings = <
-&kp GRAVE          &kp N1        &kp N2          &kp N3       &kp N4           &kp N5                    &kp N6    &kp N7            &kp N8       &kp N9        &kp N0        &kp EQUAL
-&kp LEFT_BRACKET   &kp Q         &kp W           &kp E        &kp R            &kp T                     &kp P     &kp Y             &kp U        &kp I         &kp O         &kp APOS
-&kp RIGHT_BRACKET  &hml LCTRL A  &hml LSHIFT S   &hml LGUI D  &hml LEFT_ALT F  &kp G                     &kp SEMI  &hmr RIGHT_ALT H  &hmr RGUI J  &hmr RSHFT K  &hmr RCTRL L  &kp MINUS
+&kp GRAVE          &kp N1        &kp N2          &kp N3       &kp N4           &kp N5                    &kp N0    &kp N6            &kp N7       &kp N8        &kp N9        &kp EQUAL
+&kp LEFT_BRACKET   &kp Q         &kp W           &kp E        &kp R            &kp T                     &kp P     &kp Y             &kp U        &kp I         &kp O         &kp MINUS
+&kp RIGHT_BRACKET  &hml LCTRL A  &hml LSHIFT S   &hml LGUI D  &hml LEFT_ALT F  &kp G                     &kp SEMI  &hmr RIGHT_ALT H  &hmr RGUI J  &hmr RSHFT K  &hmr RCTRL L  &kp APOS
 &kp BACKSLASH      &kp Z         &kp X           &kp C        &kp V            &kp B                     &kp FSLH  &kp N             &kp M        &kp COMMA     &kp DOT       &tog 3
                    &kp TAB       &sk LEFT_SHIFT  &kp ESCAPE   &lt 1 SPACE      &kp DEL  &sk RIGHT_SHIFT            &lt 2 BACKSPACE                &kp ENTER
             >;
