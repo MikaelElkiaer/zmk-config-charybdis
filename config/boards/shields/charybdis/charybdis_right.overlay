@@ -38,8 +38,8 @@
 
 &pointer_accel {
     input-type = <INPUT_EV_REL>;
-    min-factor = <300>;           // 0.3x for fine control
-    max-factor = <3000>;          // 3.0x maximum
+    min-factor = <200>;           // 0.2x for fine control
+    max-factor = <2000>;          // 2.0x maximum
     speed-threshold = <2000>;     // High threshold for stability
     speed-max = <7000>;           // 7000 counts/sec for max accel
     acceleration-exponent = <1>;  // Linear response
